@@ -33,3 +33,16 @@ section,
 footer{
     padding: 2.7rem 0;
 }
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
