@@ -18,3 +18,18 @@ body{
     --cinza: #B7BCBF;
     --marrom: #D7A184;
 }
+
+.background{
+    background-color: var(--verde-escuro);
+}
+
+.container{
+    max-width: 1440px;
+    padding: 0 5%;
+    margin: 0 auto;
+}
+
+section,
+footer{
+    padding: 2.7rem 0;
+}
