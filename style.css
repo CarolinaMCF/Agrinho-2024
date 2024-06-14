@@ -46,3 +46,17 @@ nav{
     font-weight: bold;
     color: white;
 }
+
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+.ul li{
+    margin: 0 35px;
+    font-size: 15px;
+}
+
+.ul li a{
+    color: white;
+}
