@@ -60,3 +60,34 @@ nav{
 .ul li a{
     color: white;
 }
+
+main .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.main-text{
+    width: 50%;
+    color: white;
+}
+
+.main-text h1{
+    font-size: 4.5rem;
+}
+
+.main-text div{
+    display: flex;
+    align-items: center;
+}
+
+.main-img{
+    width: 40%;
+}
+
+.main-img img{
+    width: 100%;
+    border-radius: 30px;
+    padding: 10px 0;
+}
