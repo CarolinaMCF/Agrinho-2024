@@ -133,3 +133,98 @@ main .container{
     font-weight: 600;
 }
 
+section#beneficios .container{
+    display: flex;   
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+section#beneficios .card{
+    width: 30%;
+    padding: 30px;   
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+section#beneficios .card:hover{
+    box-shadow: 0px 10px 67px 8px #e6e6fa86;
+}
+
+section#beneficios .card img{
+    width: 60px;
+}
+
+section#beneficios .card p{
+    text-align: justify;
+    color: gray;
+}
+
+section#beneficios .card .titulo{
+    margin: 13px 0;
+    font-weight: 600;
+    color: var(--azul);
+}
+
+.agricultura .container{
+    display: flex;
+    align-items: center;
+}
+.agricultura .agricultura-img{
+    width: 50%;
+}
+.agricultura .agricultura-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.agricultura .agricultura-text{
+    width: 50%;
+    padding-left: 90px;
+}
+.agricultura .agricultura-text h2{
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+.agricultura .agricultura-text p{
+    margin: 20px 0;
+    text-align: justify;
+    color: gray;
+}
+
+section#tecnologias h2{
+    font-size: 2rem;
+    color: var(--azul);
+}
+
+section#tecnologias .cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+section#tecnologias .card-item:hover{
+    box-shadow: 0px 10px 67px 8px #e6e6fa86;
+}
+
+section#tecnologias .cards .card-item{
+    width: 30%;
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+section#tecnologias .cards img{
+    width: 60px;
+}
+
+section#tecnologias .cards .texto-card{
+    margin: 5px 0;
+    text-align: justify;
+    color: gray;
+}
+
+section#tecnologias .cards .titulo-card{
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--azul);
+}
